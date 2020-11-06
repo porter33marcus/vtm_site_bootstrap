@@ -1,0 +1,39 @@
+{% extends 'base.html'%}
+
+{% block title %} Estimate{% endblock %}
+
+
+
+
+
+
+{% block body %} 
+<h2> Create An Estimate </h2>
+<br>
+<br>
+<div class="row">
+  
+  <div class="col-6">
+  <form id="estimateForm" method="POST" action="/tankCalc" id=calculateCost>
+      <label for="height">Height:</label><br>
+      <input type="text" id="height" name="height" placeholder="in Feet" pattern=\d{1,} required autofocus><br>
+      <label for="radius">Radius:</label><br>
+      <input type="text" id="radius" name="radius" placeholder="in Feet" pattern=\d{1,} required><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <div class="col-6">
+    {% if tankCalc %}
+    <p class="pCenter">the price of your tank will be: {{ "${:,.2f}".format(tankCalc) }}</p>
+  {% endif%}
+
+  </div>
+</div>
+
+  <br>
+  <br>
+
+  
+<br>
+
+{% endblock %}

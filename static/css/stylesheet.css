@@ -1,0 +1,159 @@
+body{
+    background-color: #6CDAEE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.container{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    border-radius: 15px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: gold;
+}
+h1{
+    text-align: center;
+    text-size-adjust: 5em;
+    text-decoration: none;
+    
+}
+
+h2{
+    text-align: center;
+}
+.row{
+    width: 100%;
+    height: 100%;
+    vertical-align: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    /*background-color: khaki;
+    */
+
+}
+.col-4{
+    width: 33%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.col-6{
+    width: 49%;
+    height: 100%;
+    margin: 0 auto;
+    padding: auto;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    vertical-align: center;
+    /*background-color: hotpink;
+    */
+    align-self: center;
+    
+}
+.pCenter{
+    text-align: center;
+    vertical-align: center;
+    
+   /* background-color: greenyellow;
+   */ 
+   height: 100%;
+    display: inline-block;
+    
+    padding: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.img-responsive
+{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    width: 100%;
+    background-color: gold;
+    color: #0074e1;
+    align-content: center;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: transparent;
+    align-content: center;
+    /*background-color: yellowgreen;
+    */
+    color: #0074e1;
+}
+a{
+    background-color: transparent;
+    margin:0px;
+    padding:0px;
+    
+}
+a:hover{
+    background-color: #0074e1;
+    color: white;
+
+}
+
+.navLi
+{   
+    list-style-type: none;
+   float: left;
+   display: inline;
+   align-content: center;
+   text-align: center;
+   margin:0;
+   padding: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+   width: 33%;
+   background-color:gold;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   
+
+
+}
+.navli:hover{
+    background-color: #0074e1;
+    color: white;
+
+}
+
+#aboutBody{
+    background-color: gold;
+    padding: 5px;
+}
+
+
+#estimateForm{
+    align-self: center;
+}
+
+p{
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+
+    margin-top: 10px;
+}
