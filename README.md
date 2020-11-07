@@ -1,33 +1,8 @@
-# Flask Template
-Basic structure for starting a Flask project with Jinja templates
+# Vertical Tank Maintenance Website
 
----
-1. Clone this repository to local computer
+basic website for a mock vertical tank company. 
 
-2. Rename the directory to reflect the new project name
+Contains three pages with Lorem ipsum text, an image and a cost calculator using python.
 
-3. Delete .git folder
+Uses bootstrap for formatting so the stylesheet.css is no longer used(left it in just for reference).
 
-4. Create a new virtual environment 
-   - Windows:  ```python -m venv ./venv```
-   - Mac:  ```python -m venv ./venv```
-
-5. Activate the new virtual environment
-   - Windows:  ```.\venv\Scripts\activate```
-   - Mac:  ```source ./venv/bin/activate```
-
-6. Install the dependencies ```pip install -r requirements.txt```
-
-7. Make a new repository by running ```git init``` in the folder.
-
-8. Track all the files in the new local repository ```git add .```
-
-9. Make the first commit of this new project ```git commit -m 'first commit of <project name> from flask_template```
-
-10. On Github, create a new repository. *DO NOT* initialize it
-
-11. Connect the local repository to the new Github repository ```git remote add origin <<repository_URL>>```
-
-12. Create and change to a new local development branch ```git checkout b <<branch_name>>```
-
-13. Continue working with the project as you normally would.
